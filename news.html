@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detailed News</title>
+    <style>
+           #navbar{
+               display: flex;
+               width: 98%;
+               height: 50px;
+               justify-content: space-between;
+               background-color: aquamarine ;
+               
+           }  
+           #navbar>input{
+             height: 30px;
+             width: 300px;
+             border-radius: 10px;
+             margin-top: 10px;
+             
+           }  
+           #navbar>div{
+             display: flex;
+             gap: 20px;
+             cursor: pointer;
+           } 
+           #sidebar{
+             width: 250px;
+             height: 800px;
+             background-color: azure;
+             text-align: center;
+           }  
+           #sidebar>div>img{
+             border-radius:50%;
+           }
+           #sidebar>div{
+             padding-top: 50px;
+           }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <!-- - The nav-bar will have link for home page(Id:- "home") and link for world news(Id:- "world_news). -->
+    </div>
+    <div>
+      <div id="sidebar">
+        <!-- Sidebar will have
+         - Image of user (Id:- "user_img")
+  - Name of user (Id:- "user_name")
+  - Email of user (Id:- "user_email")
+  - Country of user (Id:- "user_country) -->
+      </div>
+      <div>
+        <!-- - The detailed news will be appended inside div with Id as "detailed_news", which will have following:-
+      * Image tag for image
+      * H3 tag for title
+      * H4 tag for description -->
+      </div>
+    </div>
+  </body>
+</html>
+<script src="/scripts/news.js" type="module">
+   
+</script>
